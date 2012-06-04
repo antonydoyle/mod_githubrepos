@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" client="site">
+	<name>GitHub Repos</name>
+	<author>Antony Doyle</author>
+	<creationDate>June 2012</creationDate>
+	<copyright>Copyright Antony Doyle. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 </license>
+	<authorEmail>antony@siege21.com</authorEmail>
+	<authorUrl>www.antonydoyle.co.uk</authorUrl>
+	<version>1.0</version>
+	<description>GITHUBDESC</description>
+    <languages>
+	    	<language tag="en-GB">language/en-GB/en-GB.mod_githubrepo.ini</language>
+    </languages>
+
+	<files>
+		<filename module="mod_githubrepo">mod_githubrepo.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>js</folder>
+		<filename>mod_githubrepo.xml</filename>
+
+	</files>
+
+		<config>
+			<fields name="params">
+				<fieldset name="options" label="OPTIONS">
+					<field name="reponame" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+				</fieldset>
+				<fieldset name="additional" label="ADDITIONAL">
+					<field name="reponame1" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath1" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove1" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+					
+					<field name="reponame2" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath2" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove2" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+					
+					<field name="reponame3" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath3" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove3" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+					
+					<field name="reponame4" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath4" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove4" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+					
+					<field name="reponame5" type="textfield" default="" label="REPONAME_LBL" description="REPONAME_DESC">
+					</field>
+					<field name="repopath5" type="textfield" default="" label="REPOPATH_LBL" description="REPOPATH_DESC">
+					</field>
+					<field name="textabove5" type="textarea" default="" label="TXT_ABOVE_LBL" description="TXT_ABOVE_DESC">
+					</field>
+					
+				</fieldset>
+
+
+
+				<fieldset name="Settings" label="SETTINGS">
+					<field name="gitcss" type="radio" default="1" label="CSS_LBL" description="CSS_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+					</field>
+					<field name="jQuery" type="radio" default="1" label="JQUERY_LBL" description="JQUERY_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				
+				</fieldset>
+			</fields>
+	</config>
+</extension>
+

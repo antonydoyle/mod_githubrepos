@@ -1,0 +1,89 @@
+/**
+ *
+ *
+ * @package   mod_githubrepo
+ * copyright Siege21.com/Antony Doyle
+ * @license GPL3
+ */
+#ghtexttop {
+	clear:both;
+}
+.gh_mod div.body {
+  background: -moz-linear-gradient(center top , #FAFAFA, #EFEFEF) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, 0% 0, 0% 100%,from(#FAFAFA),to(#EFEFEF));
+  border-bottom-left-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-bottomright :4px;
+  border-top: 1px solid #eee;
+  clear: right;
+  margin-left: -10px;
+  margin-top: 8px;
+  min-height: 40px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.gh_mod div.body p {
+  color: #444;
+  margin: 0 0 3px;
+}
+.gh_mod h3 {
+  background-image: url('public.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  line-height: 1.3em;
+  margin: 0;
+  padding-left: 22px;
+  white-space: nowrap;
+}
+.gh_mod h3 a {
+  color: #4183c4;
+  text-decoration: none;
+}
+.gh_mod h3 a:hover {
+  text-decoration: underline;
+}
+.gh_mod ul {
+  float: right;
+  margin: 0;
+  padding-left: 15px;
+  position: relative;
+}
+.gh_mod ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.gh_mod ul li a {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #666666;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    text-decoration: none;
+}
+.gh_mod ul li.forks a {
+  background-image: url('fork.png');
+  padding: 0 5px 0 15px;
+}
+.gh_mod ul li.watchers a {
+  background-image: url('watchers.png');
+  padding: 0 5px 0 28px;
+}
+
+.gh_mod { 
+	padding:8px 10px 0;
+	color:#888;
+	font-size:12px;
+	font-family:Helvetica,Arial,sans-serif;
+	border-radius:4px;
+	margin:0;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid #ddd;
+	overflow: hidden;
+   }
+.gh_mod.loading { text-align:center; }
