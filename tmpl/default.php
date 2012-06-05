@@ -9,7 +9,7 @@
  defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 ?>
 
-
+<div class="<?php echo $moduleclass_sfx; ?>">
 <div id="ghtexttop"><p><?php echo $txtAbove ?></p></div>
 
 <div id="<?php echo $reponame ?>" class="gh_mod loading">&hellip;</div>
@@ -79,5 +79,5 @@ GHmod.init(reponame5, repopath5)
 <div id="ghtexttop"><p><?php echo $txtAbove5 ?></p></div>
 <div id="<?php echo $reponame5 ?>" class="gh_mod loading">&hellip;</div>
 <? } ?>
-
+</div>
 
